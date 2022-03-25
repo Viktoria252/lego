@@ -1,0 +1,39 @@
+.header{
+    background-image: url(../img/img.png);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: black;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+.contents{
+    width: calc((100% - 20px * 2) / 3);
+}
+
+.col{
+    width: 100%;
+    padding: 20px;
+    border-color: black;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+}
+
+.row{
+    display: flex;
+}
+
+.row > .col:first-child{
+    border-left: 1px solid black;
+}
+
+@media (max-width: 400px){
+    .row{
+        flex-direction: column;
+    }
+}
