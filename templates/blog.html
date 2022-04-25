@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %} {{ blog.title }} {% endblock %}
+
+{% block content %}
+{{blog.content}}
+    <div class="video">
+        <video controls width="400" height="300">
+            <source src="{{ blog.video }}">
+        </video>
+    </div>
+{% endblock %}

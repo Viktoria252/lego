@@ -1,5 +1,5 @@
 .header{
-    background-image: url(../img/img.png);
+    background-image: url(img/img.png);
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 10px;
@@ -36,4 +36,9 @@
     .row{
         flex-direction: column;
     }
+}
+
+.video{
+    width: 50%;
+    height: 100vh;
 }
